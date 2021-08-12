@@ -2,28 +2,104 @@ body {font-size: 14px;
       font-family: arial, sans-serif;
       margin:0px;}
 
-#img1 {width: 35px;
-       height: 35px;
+#img1 {width: 40px;
+       height: 40px;
        color: rgb(92, 91, 91);
-       margin-top: -5px;
+       margin-top: 0px;
        }
+#img1:hover {box-shadow: 0 0 10px 0 gainsboro;
+             border-radius: 100%;
+             cursor: pointer;}
 #img2 {width: 30px;
        height: 30px;
-       border-radius: 50%;
+       border-radius: 100%;
        margin-right: 20px;
-       padding-left: 5px;
-       padding-right: 5px;
-       }
+       padding-left: 10px;
+       padding-right: 10px;
+       cursor: pointer;}
+#search {width: 35px;
+         height: 35px;
+         border-radius: 50%;
+          }
+#mic {width: 47px;
+      height: 35px;
+      border-radius: 50%;
+      cursor: pointer;}
+#google {width: 48vh;
+         margin-top: -50px;}
+
 a {color: black;
    text-decoration: none;
    margin: 5px;}
 a:hover {text-decoration: underline;}
 
-nav {display: flex;
-     align-content: flex-end;
-     place-content: flex-end;}
+.nav1 {display: flex;
+       align-items: flex-end;
+       justify-content: flex-end;
+       text-align: center;}
+.nav2 {display: flex;
+       justify-self: flex-start;
+       }
+
 
 .header-nav {display: flex;
-             text-align: center;}
+             text-align: center;
+             align-items: flex-end;}
+
+ul > a, ul > img {padding: 0 8px;}
+
+section {display: flex;
+         flex-direction: column;
+         align-items: center;
+         margin-top: 5vh;
+         justify-content: space-between;}
+
+.input-container:hover {box-shadow: 0 0 10px 0 gainsboro;}
+
+
+.input-container {display: flex;
+        justify-content: space-between;
+        width: 600px;
+        height: 38px;
+        border: 1px solid gainsboro;
+        border-radius: 20px;
+      }
+.input-container > input {flex-grow: 1;
+                          border: none;
+                          outline: none;
+                          }
+
+button:hover {border: 1px solid #d8d9da;}
+
+button {border: none;
+        width: 25vh;
+        height: 7vh;
+        color:rgb(70, 69, 69);
+        background-color: #f8f9fa;
+        cursor: pointer;
+        border-radius: 6%;
+        margin-top: 30px;}
+footer {background-color: rgba(240, 239, 239, 0.918);
+        display: flex;
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+        height: 50px;
+        }
+#footer-left {display: flex;
+              justify-self: start;
+              margin-left: 20px;
+              align-items: center;
+              align-content: center;}
+#footer-right {display: flex;
+               justify-self: flex-end;
+               align-items: center;
+               margin-top: 10px;
+               margin-left: 550px;
+            }
+
+
+
+
 
 
