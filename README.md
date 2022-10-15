@@ -4,12 +4,11 @@
 
 #### Live Site URL: [https://virag-ky.github.io/Google-homepage/](https://virag-ky.github.io/Google-homepage/)
 
-
 ## Built with
 
-* HTML
-* CSS
-* Flexbox
+- HTML
+- CSS
+- Flexbox
 
 ## Screenshot
 
@@ -18,3 +17,5 @@
 ## Acknowledgements
 
 - [The Odin Project](https://www.theodinproject.com)
+- <a href="https://www.flaticon.com/free-icons/more" title="more icons">More icons created by Ayub Irawan - Flaticon</a>
+- <a href="https://www.flaticon.com/free-icons/search" title="search icons">Search icons created by Pixel perfect - Flaticon</a>
