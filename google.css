@@ -60,43 +60,66 @@ main {
   align-items: center;
   margin-top: 100px;
 }
+
 #google-logo {
-  width: 400px;
+  width: 320px;
 }
+
 .input-container {
   border: 1px solid gainsboro;
-  width: 700px;
-  height: 50px;
+  width: 600px;
+  height: 45px;
   border-radius: 50px;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin-top: 25px;
 }
+
 #search {
-  width: 20px;
-  height: 20px;
+  width: 15px;
+  height: 15px;
   margin-left: 15px;
 }
+
+#search:hover {
+  cursor: pointer;
+}
+
 #mic {
-  width: 35px;
-  height: 35px;
+  width: 30px;
+  height: 30px;
   margin-right: 15px;
 }
+
+#mic:hover {
+  cursor: pointer;
+}
+
 #text {
   width: 600px;
   height: 40px;
+  font-size: 16px;
+  margin-left: 15px;
   border: none;
 }
+
+#text:focus {
+  outline: none;
+}
+
 .button {
   display: flex;
   gap: 20px;
 }
+
 button {
   margin-top: 20px;
   border-radius: 4px;
   border: none;
   padding: 20px;
 }
+
 button:hover {
   cursor: pointer;
   box-shadow: 0 0 8px gainsboro;
