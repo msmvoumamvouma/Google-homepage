@@ -11,8 +11,9 @@
 - Flexbox
 
 ## Screenshot
+![screencapture-127-0-0-1-5500-2022-10-15-15_30_48](https://user-images.githubusercontent.com/79658534/195987706-5032c0c5-26ee-4595-aab2-0c2cc3264fde.png)
 
-![google-homepage](https://user-images.githubusercontent.com/79658534/153749549-cf991865-def2-4452-ae58-c2d6f5e48440.png)
+
 
 ## Acknowledgements
 
