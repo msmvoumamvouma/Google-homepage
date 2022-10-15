@@ -130,35 +130,31 @@ footer {
   width: 100%;
   position: fixed;
   bottom: 0;
+  display: flex;
+  align-items: center;
 }
 
 .nav2 {
   width: 100%;
   display: flex;
+  justify-content: space-between;
+  align-items: center;
   padding: 10px;
 }
 
-#footer-left {
+.nav2 ul {
   display: flex;
   justify-content: space-between;
   gap: 20px;
 }
 
-#footer-right {
-  display: flex;
-  justify-content: space-between;
-  margin-left: auto;
-  margin-right: 25px;
-  gap: 20px;
-}
+@media (max-width: 600px) {
 
-@media only screen and (max-width: 600px) {
   body {
     font-size: 14px;
   }
 
   .nav1 {
-    max-width: 250px;
     margin-right: 45px;
   }
 
@@ -168,7 +164,7 @@ footer {
   }
 
   #google-logo {
-    width: 200px;
+    width: 150px;
   }
 
   .input-container {
@@ -178,11 +174,22 @@ footer {
 
   #text {
     height: 22px;
+    font-size: 10px;
+  }
+
+  #search {
+    width: 12px;
+    height: 12px;
+  }
+
+  #mic {
+    width: 20px;
+    height: 20px;
   }
 
   button {
-    width: 100px;
-    font-size: 10px;
+    width: 90px;
+    font-size: 9px;
     padding: 8px;
   }
 
@@ -191,16 +198,11 @@ footer {
   }
 
   footer a {
-    font-size: 7px;
+    font-size: 8px;
   }
 
-  #footer-left {
-    margin-left: -40px;
-    gap: 8px;
-  }
-
-  #footer-right {
-    gap: 8px;
+  .nav2 ul {
+    gap: 15px;
   }
 
   .nav1 a {
@@ -208,16 +210,10 @@ footer {
   }
 
   #grid {
-    width: 15px;
+    width: 12px;
   }
-  
+
   #img-account {
     width: 15px;
-  }
-}
-
-@media only screen and (max-width: 520px) {
-  main {
-    margin-top: 25px;
   }
 }
